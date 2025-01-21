@@ -17,7 +17,7 @@ public class RegisterTest extends BaseTest {
         webApp.registerPage().clickAgreeSlideButton();
         webApp.registerPage().clickContinueButton();
 //        webApp.congratulationPage().checkPage();
- 
+git
     }
 
 }
