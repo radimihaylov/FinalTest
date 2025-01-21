@@ -14,7 +14,7 @@ public class BaseTest {
 
     @BeforeMethod
     public void setup() {
-        driver = new ChromeDriver();
+        driver = new FirefoxDriver();
         driver.manage().window().maximize();
         webApp = new WebApp(driver);
 
